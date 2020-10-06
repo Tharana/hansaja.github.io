@@ -216,7 +216,7 @@ function showhelp(){
 
 
 function showmedia(){
-		$('.terminal').append("<div class='kittens'>"+"<p class='prompt'>my social media link </p>\n\n <a href='https://github.com/Tharana'target='_blank'>github </a> \n\n<a href='https://fb.com/tharana.hansaja'target='_blank'>facebook </a> \n <a href='https://twitter.com/tharanahansaja'target='_blank'>twitter </a>\n <a href='https://linkedin.com/in/tharana-hansaja'target='_blank'>linkedin </a>\n<a href='https://stackexchange.com/users/14952222'target='_blank'>stackoverflow </a>\n<a href='https://www.hackerrank.com/tharanahansaja'target='_blank'>hackerrank</a>\n <a href='https://hackerone.com/cyber_killer2'target='_blank'>hackerone </a>\n </div>");
+		$('.terminal').append("<div class='kittens'>"+"<p class='prompt'>my social media link </p>\n\n <a href='https://github.com/Tharana'target='_blank'>github </a> \n\n<a href='https://fb.com/tharana.hansaja'target='_blank'>facebook </a> \n <a href='https://twitter.com/tharanahansaja'target='_blank'>twitter </a>\n <a href='https://www.linkedin.com/in/tharana-hansaja-1352b3185/'target='_blank'>linkedin </a>\n<a href='https://stackexchange.com/users/14952222'target='_blank'>stackoverflow </a>\n<a href='https://www.hackerrank.com/tharanahansaja'target='_blank'>hackerrank</a>\n <a href='https://hackerone.com/cyber_killer'target='_blank'>hackerone </a>\n </div>");
     
 		
 		var lines = $('.kittens p');
