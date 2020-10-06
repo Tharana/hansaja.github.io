@@ -33,7 +33,7 @@ $('.four-oh-four-form').on('submit', function(e){
     if (val === 'help'){
       showhelp();
        return -1;}
-    if (val === 'media'){
+    if (val === 'social'){
       showmedia();
        return -1;}
     else {
@@ -189,7 +189,7 @@ function showtool(){
 
 
 function showhelp(){
-		$('.terminal').append("<div class='kittens'>"+"<p class='prompt'>You can access this website using the following commands \n\n >about       A little introduction about me \n >blog        Links to my blog\n >portfolio   my projects via Opensource Platforms \n >contact     How to contact me \n >tool        Programming languages to learn\n >help        To get help </p></div>");
+		$('.terminal').append("<div class='kittens'>"+"<p class='prompt'>You can access this website using the following commands \n\n >about       A little introduction about me \n >blog        Links to my blog\n >portfolio   my projects via Opensource Platforms \n >contact     How to contact me \n >tool        Programming languages to learn\n >social      my social media accounts \n>help        To get help </p></div>");
      
 		
 		var lines = $('.kittens p');
